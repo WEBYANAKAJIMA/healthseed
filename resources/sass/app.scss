@@ -1,0 +1,155 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+// フォントCSS定義
+@font-face {
+    font-family: 'meiryo';
+    font-display: swap;
+    src: url(../fonts/meiryo001.woff2);
+}
+
+@font-face {
+    font-family: 'YuMincho';
+    font-display: swap;
+    src: url(../fonts/yumin.woff2);
+}
+
+@font-face {
+    font-family: 'YuMinchoBd';
+    font-display: swap;
+    src: url(../fonts/yumindb.woff);
+}
+
+@font-face {
+    font-family: 'YuGothM';
+    font-display: swap;
+    src: url(../fonts/YuGothM.woff2);
+}
+
+@font-face {
+    font-family: 'YuGothB';
+    font-display: swap;
+    src: url(../fonts/YuGothB.woff2);
+}
+
+.YuMincho {
+    font-family: YuMincho;
+}
+
+.YuMinchoBd {
+    font-family: YuMinchoBd;
+}
+
+.YuGothB {
+    font-family: YuGothB;
+}
+
+.YuGothM {
+    font-family: YuGothM;
+}
+
+.Meiryo {
+    font-family: meiryo;
+}
+
+// 画像CSS定義
+.lg-product-bg{
+    background-image: url(../images/lg_product_bg.png);
+    background-repeat: no-repeat;
+    background-position: 660px 0px;
+    background-size: 360px 400px;
+}
+
+// 下線CSS定義
+.Y-underline{
+	background-image: linear-gradient(to right, #fddd28, #f99473);
+	background-repeat: no-repeat;
+	background-size: 100% 5%;
+	background-position: bottom;
+}
+
+.G-underline{
+	background-image: linear-gradient(to right, #8dc045, #3fb16d);
+	background-repeat: no-repeat;
+	background-size: 100% 5%;
+	background-position: bottom;
+}
+
+// アイコンCSS定義
+.lg-arrow01-icon{
+    content: url(../images/icons/arrow01.svg);
+}
+
+.lg-arrow02-icon{
+    content: url(../images/icons/arrow04.svg);
+    width: 25px;
+    height: 25px;
+    padding-top: 9px;
+}
+
+.lg-checkbox-icon{
+    content: url(../images/icons/checkbox.svg);
+    width: 25px;
+    height: 25px;
+}
+
+// ボタンCSS定義
+.button-type-1{
+    background: linear-gradient(-135deg, #5a5857, #424141);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    font-family: YuGothM;
+    color: #ffffff;
+    text-align:center;
+    transition:1000ms ease all;
+}
+
+.button-type-1:hover{
+    background:#fff;
+    color: #424141;
+    border: 1px solid #5a5857;
+}
+
+.button-type-2{
+    transition: 0.5s;
+    background: linear-gradient(-135deg, #8dc044, #3fb06c);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    font-family: YuGothM;
+    font-size: 30px;
+    color: #ffffff;
+    text-align:center;
+    transition:1000ms ease all;
+}
+
+.button-type-2:hover{
+    background:#fff;
+    color: #3fb06c;
+    border: 1px solid #8dc044;
+}
+
+.button-type-3{
+    transition: 0.5s;
+    background: linear-gradient(-135deg, #fddd28, #f99473);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    font-family: YuGothM;
+    font-size: 30px;
+    color: #ffffff;
+    text-align:center;
+    transition:1000ms ease all;
+}
+
+.button-type-3:hover{
+    background:#fff;
+    color: #f99473;
+    border: 1px solid #fddd28;
+}
+
+button:focus{
+    outline: 0;
+}
+
+
+
+
